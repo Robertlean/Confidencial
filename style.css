@@ -1,0 +1,112 @@
+/* General */
+*{
+    margin: 0;
+    padding: 0
+}
+p, h5{
+    margin-bottom: 0;
+}
+ul li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Navbar */
+.bg-light{
+    background-color: white !important;
+}
+.navbar-toggler{
+    padding: 0
+}
+.navbar-toggler-icon{
+    width: 1.2em;
+    height: 1.2em;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: transparent;
+}
+
+nav, header{
+    border-bottom: 1px solid rgb(199, 199, 199);
+}
+.search{
+    width: 1.5em;
+    opacity: .5;
+}
+.buscador p{
+    margin-bottom: 0;
+}
+.weather img{
+    width: 2em;
+    height: auto;
+    transform: scaleX(-1);
+    opacity: .7;
+}
+.city p, .weather h5{
+    text-align: center;
+    opacity: .7;
+    font-weight: 500;
+}
+.weather h6{
+    font-size: .7em;
+    opacity: .7;
+}
+.city{
+    margin-left: 1em;
+    opacity: .7
+}
+
+.flex-right a, p{
+    font-size: 1em;
+    text-align: center;
+    color: grey;
+    opacity: 1;
+    font-weight: 500;
+    text-decoration: none;
+}
+.flex-right a:first-child{
+    margin-right: .5em;
+}
+.flex-right a:last-child{
+    margin-left: .5em;
+}
+
+/* header */
+header{
+    margin-top: 5em;
+}
+header .confidencial h1:last-child{
+    margin: .1em
+}
+.content-nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-nav ul li{
+    padding: 1em .3em;
+    font-weight: 500;
+}
+
+.icon{
+    background-color: darkred;
+    border-radius: 50%;
+    height: 3em;
+    width: 3em;
+}
+.icon h2{
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.inicial{
+    font-size: 3.5em;
+}
+.confidencial{
+    color: darkred
+}
